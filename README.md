@@ -4,13 +4,13 @@
 
 Windows 版请切换到 [`main`](https://github.com/Celine258/idea-from-limbus-company-dancing-lyrics/tree/main) 分支。
 
-## ✨ 功能
+##功能
 
-- 🎵 **网易云音乐同步** — 自动检测正在播放的歌曲，实时同步歌词
-- 🖥️ **桌面悬浮歌词** — 透明无边框窗口，始终置顶显示
-- 🎨 **多种动画效果** — 波纹·波动、波纹·抖动、跌落·波动、跌落·抖动等
-- ⏱️ **同步偏移** — ↑↓ 键微调 ±200ms，自动记忆每首歌的偏移值
-- 🎛️ **控制面板** — 字体、颜色、动画、律动等全可调
+- **网易云音乐同步** — 自动检测正在播放的歌曲，实时同步歌词
+- **桌面悬浮歌词** — 透明无边框窗口，始终置顶显示
+- **多种动画效果** — 波纹·波动、波纹·抖动、跌落·波动、跌落·抖动等
+- **同步偏移** — ↑↓ 键微调 ±200ms，自动记忆每首歌的偏移值
+- **控制面板** — 字体、颜色、动画、律动等全可调
 
 ## 📋 系统要求
 
@@ -21,7 +21,7 @@ Windows 版请切换到 [`main`](https://github.com/Celine258/idea-from-limbus-c
 | 音乐播放器 | 网易云音乐 Mac 版 |
 | 外部工具 | [`nowplaying-cli`](https://github.com/kirtan-shah/nowplaying-cli) (通过 Homebrew 安装) |
 
-## 🚀 安装与运行
+## 安装与运行
 
 ### 1. 安装 nowplaying-cli
 
@@ -57,7 +57,7 @@ chmod +x start.sh
 ./start.sh
 ```
 
-## 🎮 使用说明
+## 使用说明
 
 1. 打开**网易云音乐**并播放歌曲
 2. 运行本程序，歌词会自动出现在桌面上
@@ -72,7 +72,7 @@ chmod +x start.sh
 
 偏移值会自动保存，下次播放同一首歌时自动恢复。新歌继承当前偏移（不归零）。
 
-## 📁 项目结构
+## 项目结构
 
 ```
 ├── main_mac.py          # macOS 入口
@@ -88,17 +88,17 @@ chmod +x start.sh
 └── 卸载.sh              # 卸载脚本
 ```
 
-## ⚠️ 已知限制
+## 已知限制
 
 - 仅支持**网易云音乐 Mac 版**（依赖 macOS Now Playing 接口）
 - 暂停/播放检测延迟约 500ms（轮询间隔）
 - 需要安装 `nowplaying-cli`，不支持系统原生方式读取 Now Playing
 
-## 📝 版本
+## 版本
 
 当前版本：**v0.6.0-beta.2**
 
-## 🙏 致谢
+## 致谢
 
 - 创作者：Bilibili - 鈴仙優昙華院因幡
 - 灵感来源：[Limbus Company](https://limbuscompany.com/)
