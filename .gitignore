@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.state/
+build/
+dist/
+artifacts/
+*.spec
+debug.log
